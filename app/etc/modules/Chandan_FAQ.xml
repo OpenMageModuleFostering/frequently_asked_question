@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<config>
-    <modules>
-        <Chandan_FAQ>
-            <active>true</active>
-            <codePool>community</codePool>
-        </Chandan_FAQ>
-    </modules>
-</config> 
