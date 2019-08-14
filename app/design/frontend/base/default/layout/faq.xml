@@ -2,7 +2,7 @@
 <layout version="0.1.0">
     <default>
 		<reference name="top.links">
-            <action method="addLink" translate="Testimonial">
+            <action method="addLink" translate="Testimonial" ifconfig="chandan/faq_select/chandan_select">
                 <label>FAQ</label>
                 <url>faq/index/</url>
                 <title>FAQ</title>               
