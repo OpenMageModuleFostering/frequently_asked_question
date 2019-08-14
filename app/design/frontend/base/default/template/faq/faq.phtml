@@ -1,0 +1,39 @@
+<?php $collection = Mage::getModel('faq/faq')->getCollection()->addFieldToFilter('status',1);	?> 
+<style>@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+.faqHeader {
+    font-size: 27px;
+    margin: 20px;
+}
+
+.panel-heading [data-toggle="collapse"]:after {
+    font-family: 'FontAwesome';
+    content: "\f078"; /* "play" icon */
+    float: right;
+    color: #F58723;
+    font-size: 18px;
+    line-height: 22px;  
+}
+
+.panel-heading [data-toggle="collapse"].collapsed:after {
+  
+    color: #454444;
+}
+</style>
+
+                
+    <div class="panel-group" id="accordion">
+        <div class="faqHeader">Manage Frequently asked questions</div>
+     <?php $i = 1; foreach ($collection as $item) { ?>		
+		<div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse<?php echo $i; ?>">
+					<?php echo $item->getQuestion(); ?></a>
+                </h4>
+            </div>
+            <div id="collapse<?php echo $i; ?>" class="panel-collapse collapse <?php if($i==1) { echo 'in'; } ?>">
+                <div class="panel-body"><?php echo $item->getAnswer(); ?></div>
+        </div>
+		 </div>
+		<?php $i = $i+1; } ?>       
+    </div>

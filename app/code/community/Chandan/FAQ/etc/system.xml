@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <tabs>
+        <chandan_faq translate="label" module="faq">
+            <label>FAQ Setting</label>
+            <sort_order>100</sort_order>
+        </chandan_faq>
+    </tabs>
+    <sections>
+        <chandan_faq translate="label" module="faq">
+            <label>FAQ Options</label>
+            <tab>chandan_faq</tab>
+            <sort_order>1</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+ 
+            <groups>
+                <faq_select translate="label" module="faq">
+                    <label>FAQ Settings</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>					
+						<chandan_select translate="label">
+                            <label>FAQ Status: </label>                            
+                            <frontend_type>select</frontend_type>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                        </chandan_select>					
+                    </fields>
+                </faq_select>
+            </groups>
+        </chandan_faq>
+    </sections>
+</config>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Frequently_Asked_Question</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>frequently asked question</summary>
+    <description>frequently asked question</description>
+    <notes>First Release</notes>
+    <authors><author><name>Chandan Kumar Singh</name><user>chandan8050</user><email>chandankumar8050@gmail.com</email></author></authors>
+    <date>2017-01-31</date>
+    <time>11:30:43</time>
+    <contents><target name="magecommunity"><dir name="Chandan"><dir name="FAQ"><dir name="Block"><dir name="Adminhtml"><dir name="FAQ"><dir name="Edit"><file name="Form.php" hash="f963be73f8196edd65ee805d00f6f78c"/><dir name="Tab"><file name="Form.php" hash="40e5861bc35ad1d414637b6a23ad1d7c"/></dir><file name="Tabs.php" hash="80689190e5bb5574cb76020f92e387d6"/></dir><file name="Edit.php" hash="e74c35ac9a63938ee3230ab038baba1f"/><file name="Grid.php" hash="2c2dd9c59ab91b8308bd992ea72f03ad"/></dir><file name="FAQ.php" hash="be4739e55489e0cb48521e0c4e90f71a"/></dir><file name="FAQ.php" hash="6964c5635863ce1e71959092a7e5d63b"/></dir><dir name="Helper"><file name="Data.php" hash="1ab93b8126e09ebbfdea74055cd51eec"/></dir><dir name="Model"><file name="FAQ.php" hash="5291f72d51e05177d0737a517d5e7c28"/><dir name="Mysql4"><dir name="FAQ"><file name="Collection.php" hash="ea1ea6587cfe698fe676535c449eb9ea"/></dir><file name="FAQ.php" hash="d9e64f858305d190fe62974456c91c52"/></dir><file name="Status.php" hash="78189291746be377f00a8ac9280f283f"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="FAQController.php" hash="4f70b43634078833ec1d0fd4f2b3b1e9"/></dir><file name="IndexController.php" hash="22df5fee2ad0c62327ca0860f95ec80e"/></dir><dir name="etc"><file name="config.xml" hash="42a5102c8ffb58272700e7ebc0c2c000"/><file name="system.xml" hash="a4f191df3a7134acfdbd74cabb7c593f"/></dir><dir name="sql"><dir name="faq_setup"><file name="mysql4-install-1.0.0.php" hash="cf97febdd84b5375b33913101925721c"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Chandan_FAQ.xml" hash="cfaa996be1aeb9cc4064e6123478a1c6"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="faq.xml" hash="366af823c15070f095fc7e99889e3d4b"/></dir></dir></dir></dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="faq.xml" hash="613513df8bbbd516ec393c0b3c2109c8"/></dir><dir name="template"><dir name="faq"><file name="faq.phtml" hash="643be8d243a1bb412937195e39dec399"/></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="faq"><dir name="css"><file name="bootstrap.min.css" hash="78e7f91c0c4cca415e0683626aa23925"/></dir><dir name="js"><file name="bootstrap.min.js" hash="281cd50dd9f58c5550620fc148a7bc39"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>7.1.0</max></php></required></dependencies>
+</package>
