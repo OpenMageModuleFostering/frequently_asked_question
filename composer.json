@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Frequently_Asked_Question",
+    "name": "openmage-module-fostering\/frequently_asked_question",
     "type": "magento-module",
-    "license": "OSL",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "frequently asked question",
     "authors": [
